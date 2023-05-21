@@ -1,0 +1,65 @@
+﻿<Window x:Class="Puissance4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Puissance4"
+        mc:Ignorable="d"
+        Title="Puissance4" Height="515" Width="880">
+    <Grid x:Name="Game">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="155*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="395" Margin="230,63,0,0" Stroke="Black" VerticalAlignment="Top" Width="500" Fill="#FF002BFF"/>
+        <Ellipse x:Name="c05" HorizontalAlignment="Left" Height="50" Margin="255,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c04" HorizontalAlignment="Left" Height="50" Margin="255,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c03" HorizontalAlignment="Left" Height="50" Margin="255,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c02" HorizontalAlignment="Left" Height="50" Margin="255,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c01" HorizontalAlignment="Left" Height="50" Margin="255,326,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c00" HorizontalAlignment="Left" Height="50" Margin="255,388,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c15" HorizontalAlignment="Left" Height="50" Margin="320,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c14" HorizontalAlignment="Left" Height="50" Margin="320,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c13" HorizontalAlignment="Left" Height="50" Margin="320,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c12" HorizontalAlignment="Left" Height="50" Margin="320,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c11" HorizontalAlignment="Left" Height="50" Margin="320,326,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c10" HorizontalAlignment="Left" Height="50" Margin="320,388,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c25" HorizontalAlignment="Left" Height="50" Margin="385,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c24" HorizontalAlignment="Left" Height="50" Margin="385,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c23" HorizontalAlignment="Left" Height="50" Margin="385,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c22" HorizontalAlignment="Left" Height="50" Margin="385,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c21" HorizontalAlignment="Left" Height="50" Margin="385,326,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c20" HorizontalAlignment="Left" Height="50" Margin="385,388,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c35" HorizontalAlignment="Left" Height="50" Margin="450,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c34" HorizontalAlignment="Left" Height="50" Margin="450,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c33" HorizontalAlignment="Left" Height="50" Margin="450,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c32" HorizontalAlignment="Left" Height="50" Margin="450,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c31" HorizontalAlignment="Left" Height="50" Margin="450,326,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c30" HorizontalAlignment="Left" Height="50" Margin="450,388,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c45" HorizontalAlignment="Left" Height="50" Margin="515,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c44" HorizontalAlignment="Left" Height="50" Margin="515,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c43" HorizontalAlignment="Left" Height="50" Margin="515,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c42" HorizontalAlignment="Left" Height="50" Margin="515,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c41" HorizontalAlignment="Left" Height="50" Margin="515,326,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c40" HorizontalAlignment="Left" Height="50" Margin="515,388,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c55" HorizontalAlignment="Left" Height="50" Margin="580,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c54" HorizontalAlignment="Left" Height="50" Margin="580,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c53" HorizontalAlignment="Left" Height="50" Margin="580,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c52" HorizontalAlignment="Left" Height="50" Margin="580,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c51" HorizontalAlignment="Left" Height="50" Margin="580,326,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c50" HorizontalAlignment="Left" Height="50" Margin="580,388,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c65" HorizontalAlignment="Left" Height="50" Margin="643,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c64" HorizontalAlignment="Left" Height="50" Margin="643,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c63" HorizontalAlignment="Left" Height="50" Margin="643,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c62" HorizontalAlignment="Left" Height="50" Margin="643,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c61" HorizontalAlignment="Left" Height="50" Margin="643,326,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="c60" HorizontalAlignment="Left" Height="50" Margin="643,388,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White" MouseUp="c_MouseUp" MouseEnter="c_MouseEnter" MouseLeave="c_MouseLeave"/>
+        <Ellipse x:Name="ccurrent" HorizontalAlignment="Left" Height="50" Margin="40,44,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White"/>
+        <Label x:Name="lvictoire" Content="Label" HorizontalAlignment="Left" Height="51" Margin="25,170,0,0" VerticalAlignment="Top" Width="155"/>
+        <Button x:Name="Button_Reset" Content="Nouvelle partie" HorizontalAlignment="Left" Height="23" Margin="25,126,0,0" VerticalAlignment="Top" Width="140" Click="Button_Reset_Click"/>
+    </Grid>
+
+
+
+</Window>
